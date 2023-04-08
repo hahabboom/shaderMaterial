@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import basicVertexShader from "./../assets/rawShader/vertexShader.glsl";
-import basicFragmentShader from "./../assets/rawShader/fragmentShader.glsl";
+import basicVertexShader from "./../assets/shader/vertexShader.glsl";
+import basicFragmentShader from "./../assets/shader/fragmentShader.glsl";
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
