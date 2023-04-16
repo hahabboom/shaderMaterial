@@ -8,6 +8,9 @@ uniform mat4 projectionMatrix;
 varying vec2 vuv;
 
 void main(){
-    vuv =uv;
-    gl_Position =  projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1);
+    // vuv =uv;
+    vec4 modelPosition = modelMatrix * vec4(position, 1);
+    float elevation = sin(modelPosition.x * 100.0);
+    modelPosition.y += elevation;
+    gl_Position =  projectionMatrix * viewMatrix * modelPosition;
 }

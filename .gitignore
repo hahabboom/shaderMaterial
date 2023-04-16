@@ -1,2 +1,5 @@
-/node_modules/
-/.parcel-cache/
+node_modules/
+.parcel-cache/
+dist/*.js.map
+dist/*.js
+dist/*.css.map

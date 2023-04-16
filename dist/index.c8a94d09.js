@@ -611,7 +611,7 @@ window.addEventListener("resize", ()=>{
     renderer.setPixelRatio(window.devicePixelRatio);
 });
 
-},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls":"7mqRv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./../assets/shader/vertexShader.glsl":"PrOpg","./../assets/shader/fragmentShader.glsl":"6MBpT"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls":"7mqRv","./../assets/shader/vertexShader.glsl":"PrOpg","./../assets/shader/fragmentShader.glsl":"6MBpT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2023 Three.js Authors
